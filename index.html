@@ -1,0 +1,444 @@
+<style>
+
+/* ===== BODY ===== */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Verdana', sans-serif;
+    cursor: url('https://i.imgur.com/bv3mL7T.png'), auto; /* custom cursor */
+    color: #fff;
+    box-sizing: border-box;
+    background: url('https://cdn.wallpapersafari.com/38/2/cXyvkH.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* ===== GLOBAL BODY: REMOVE DEFAULT MARGINS & HIDE HORIZONTAL SCROLL ===== */
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /*  blocks horizontal scrolling */
+}
+
+/* ===== HIDE CHATANGO ELEMENTS ===== */
+body > font { display: none; }
+#fpix_wrapper, #fpix_wrapper + font { display: none; }
+#chatango-log { left: 40%; }
+
+/* ===== HIDE RADIO INPUTS ===== */
+input[name="tab"] { display: none; }
+
+/* ===== LEFT TABS ===== */
+.tab {
+    position: fixed;
+    left: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 0 10px #DA291C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #140000;
+    border: 2px solid #DA291C;
+    transition: transform 0.2s;
+    z-index: 1000;
+}
+.tab:hover { transform: scale(1.1); }
+
+/* ===== TAB POSITIONS ===== */
+#tab-home-label { top: 150px; }
+#tab-anti-label { top: 230px; }
+#tab-quotes-label { top: 310px; }
+#tab-about-label { top: 390px; }
+
+/* ===== TAB HOVER LABEL ===== */
+.tab-hover-label {
+    position: fixed;
+    left: 90px;
+    font-size: 18px;
+    color: #DA291C;
+    text-shadow: 0 0 5px #DA291C, 0 0 10px #DA291C, 0 0 20px #DA291C, 0 0 40px #DA291C;
+    font-weight: bold;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.2s, top 0.2s;
+    z-index: 999;
+    white-space: nowrap;
+}
+
+/* ===== TAB IMAGES ===== */
+.tab img { width: 100%; height: 100%; object-fit: cover; }
+
+/* ===== SECTIONS ===== */
+.section {
+    display: none;
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+/* show section depending on checked input */
+#home:checked ~ #home-section,
+#anti:checked ~ #anti-section,
+#quotes:checked ~ #quotes-section,
+#about:checked ~ #about-section {
+    display: block;
+}
+
+/* ===== HEADER & MAIN TEXT ===== */
+header img {
+    width: 250px;
+    animation: pulse 2s infinite alternate;
+    display: block;
+    margin: 20px auto;
+}
+@keyframes pulse {
+    from { transform: scale(1); }
+    to { transform: scale(1.1); }
+}
+
+h1, h2 {
+    font-size: 47px;
+    font-weight: 600;
+    text-align: center;
+    margin: 20px 0 10px 0;
+    color: #ffffff;
+    text-shadow: 0 0 5px #DA291C,0 0 10px #DA291C,0 0 20px #DA291C,0 0 40px #DA291C;
+    animation: glow 1.5s infinite alternate;
+}
+
+@keyframes glow {
+    0% { text-shadow: 0 0 5px #DA291C,0 0 10px #DA291C,0 0 20px #DA291C,0 0 40px #DA291C; }
+    100% { text-shadow: 0 0 10px #DA291C,0 0 20px #DA291C,0 0 30px #DA291C,0 0 60px #DA291C; }
+}
+
+
+#home-section .home-credits {
+    text-align: center;
+    font-weight: 500;
+    color: #ffffff;        
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+#home-section .home-credits a {
+    color: #ff0000;          
+    text-decoration: underline;
+    text-shadow: 0 0 5px #DA291C, 0 0 10px #DA291C;
+    transition: transform 0.2s, text-shadow 0.2s;
+}
+
+#home-section .home-credits a:hover {
+    transform: scale(1.1);  
+    text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000;
+}
+
+/* ===== SKŁAD ===== */
+.skład {
+    width: 100%;
+    border: 5px solid #DA291C;
+    border-radius: 20px;
+    box-shadow: 0 0 30px #DA291C;
+    margin-bottom: 30px;
+}
+.skład img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    display: block;
+}
+
+
+/* ===== ANTI-CITY GALLERY ===== */
+.anti-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 200px));
+    justify-content: center;
+    gap: 15px;
+    row-gap: 40px;
+}
+.anti-gallery .gallery-item {
+    width: 180px;
+    height: 180px;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #ff0000,0 0 20px #ff0000;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.anti-gallery .gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.anti-gallery .gallery-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #ff0000,0 0 30px #ff0000;
+}
+
+/* ===== QUOTES ===== */
+.quotes-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+}
+.quote-box {
+    background-color: rgba(44, 9, 9, 0.425);
+    border: 2px solid #ff0000;
+    border-radius: 15px;
+    padding: 10px 15px;
+    color: #fff;
+    box-shadow: 0 0 15px #ff0000;
+    font-size: 18px;
+    line-height: 1.4;
+    display: inline-block;
+    text-align: center;
+    max-width: 100%;
+    word-wrap: break-word;
+}
+.quote-box::before {
+    content: "❝";
+    font-size: 24px;
+    color: #00f6ff;
+    margin-right: 5px;
+}
+
+/* ===== HISTORY ===== */
+.about-section {
+    width: 80%;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 25px 30px;
+    background: linear-gradient(145deg, rgba(219, 0, 0, 0.158), rgba(219, 0, 0, 0.158));
+    border: 3px solid #ff0000;
+    border-radius: 20px;
+    box-shadow: 0 0 25px #000000;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: center;
+    font-weight: 500;
+}
+.about-section .about-img-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.about-section .about-img-wrapper {
+    width: 600px;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 3px solid #ff0000;
+    box-shadow: 0 0 10px #000000,0 0 20px #000000;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.about-section .about-img-wrapper:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 15px #000000,0 0 30px #000000;
+}
+.about-section .about-img-wrapper img {
+    width: 100%;
+    display: block;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    font-size: 24px;
+    margin-bottom: 0;
+    padding: 20px 0;
+    text-align: center;
+    color: #f7f7f7;
+    text-shadow: 0 0 5px #DA291C,0 0 10px #DA291C,0 0 20px #DA291C;
+}
+
+</style>
+
+<body>
+<!-- ===== RADIO INPUTS ===== -->
+<input type="radio" name="tab" id="home" checked>
+<input type="radio" name="tab" id="anti">
+<input type="radio" name="tab" id="quotes">
+<input type="radio" name="tab" id="about">
+
+<!-- ===== TAB HOVER LABEL ===== -->
+<div id="tab-hover" class="tab-hover-label"></div>
+
+<!-- ===== LEFT TABS ===== -->
+
+<label class="tab" id="tab-home-label" for="home">
+    <img src="https://upload.wikimedia.org/wikipedia/en/7/7a/Manchester_United_FC_crest.svg">
+</label>
+<label class="tab" id="tab-anti-label" for="anti">
+    <img src="https://i.imgur.com/GWILWFn.png">
+</label>
+<label class="tab" id="tab-quotes-label" for="quotes">
+    <img src="https://i.imgur.com/Y7YXAAL.jpeg">
+</label>
+<label class="tab" id="tab-about-label" for="about">
+    <img src="https://i.imgur.com/tazBaZA.jpeg">
+</label>
+
+<!-- ===== HOME SECTION ===== -->
+<div id="home-section" class="section">
+<header>
+<img src="https://upload.wikimedia.org/wikipedia/en/7/7a/Manchester_United_FC_crest.svg">
+</header>
+<h1><b>❤️ 𝔊𝔩𝔬𝔯𝔶 𝔊𝔩𝔬𝔯𝔶 𝔐𝔞𝔫 𝔘𝔫𝔦𝔱𝔢𝔡 ❤️</b></h1>
+<h2><b><i>🖤 UP THE RED DEVILS 🖤</i></b></h2>
+<div style="height: 25px;"></div>
+
+<div class="skład">
+<img src="https://i.imgur.com/mvh3EAp.png">
+</div>
+
+<footer>Old Trafford • Since 1878</footer>
+<!-- Credits -->
+  <h3 class="home-credits">
+  Inspired and helped with this profile -
+  <a href="https://antymadridista.chatango.com/" target="_blank">AntyMadridista</a>
+</h3>
+</div>
+
+
+
+<!-- ===== ANTI-CITY SECTION ===== -->
+<div id="anti-section" class="section">
+<div class="anti-gallery">
+    <div class="gallery-item"><img src="https://i.imgur.com/WKmYk7D.jpeg" alt=""></div>
+    <div class="gallery-item"><img src="https://i.imgur.com/DiuvZcR.jpeg" alt=""></div>
+    <div class="gallery-item"><img src="https://i.imgur.com/0eIvIUS.jpeg" alt=""></div>
+    <div class="gallery-item"><img src="https://i.imgur.com/3CXT98R.jpeg" alt=""></div>
+    <div class="gallery-item"><img src="https://i.imgur.com/VBrau96.jpeg" alt=""></div>
+    <div class="gallery-item"><img src="https://i.imgur.com/wrnTeD8.jpeg" alt=""></div>
+    <div class="gallery-item"><img src="https://i.imgur.com/itwK0rC.jpeg" alt=""></div>
+    <div class="gallery-item"><img src="https://i.imgur.com/OxMFGNn.jpeg" alt=""></div>
+    <div class="gallery-item"><img src="https://i.imgur.com/ZPZHPMN.png" alt=""></div>
+</div>
+</div>
+<!-- ===== QUOTES SECTION ===== -->
+<div id="quotes-section" class="section">
+<div class="quotes-section">
+    <div class="quote-box">🚨🎙️ “Hard work will always overcome natural talent.” – Sir Alex Ferguson</div>
+    <div class="quote-box">🚨🎙️ “Football, bloody hell.” – Sir Alex Ferguson</div>
+    <div class="quote-box">🚨🎙️ "When the seagulls follow the trawler, it's because they think sardines will be thrown into the sea. Thank you very much." – Eric Cantona</div>
+    <div class="quote-box">🚨🎙️ “There's a reason that God gave us two ears, two eyes and one mouth. It's so you can listen and watch twice as much as you talk.” – Sir Alex Ferguson</div>
+    <div class="quote-box">🚨🎙️ “And Solskjaer has won it!” – Clive Tyldesley</div>
+    <div class="quote-box">🚨🎙️ “Attack wins you games, defence wins you titles.” – Sir Alex Ferguson</div>
+    <div class="quote-box">🚨🎙️ "When you first walk into that ground... you fall in love with that team running out in that red shirt... it's an addiction you have for life." — Gary Neville</div>
+    <div class="quote-box">🚨🎙️ "I never wanted Manchester United to be second to anybody. Only the best would be good enough." — Sir Matt Busby</div>
+    <div class="quote-box">🚨🎙️ "Manchester United is not just a club, it's a religion." – Eric Cantona</div>
+    <div class="quote-box">🚨🎙️"Once you put on the red shirt, you feel the history." – Cristiano Ronaldo</div>
+    <div class="quote-box">🚨🎙️"When you play for Manchester United, you play to win everything." – Roy Keane</div>
+</div>
+</div>
+
+<!-- ===== HISTORY SECTION ===== -->
+<div id="about-section" class="section">
+<div class="about-section">
+<h1>History of Manchester United</h1>
+<p>Manchester United, założony w 1878 roku, to jeden z najbardziej utytułowanych klubów na świecie. Z legendarnymi menedżerami i gwiazdami, klub zdobywał mistrzostwa Anglii, Puchary i triumfy w Lidze Mistrzów, tworząc historię pełną niezapomnianych zwycięstw i emocji. Klub od zawsze jest symbolem pasji, determinacji i ducha drużynowego, który inspiruje miliony kibiców na całym świecie.</p>
+<div style="height:20px;"></div>
+<div class="about-img-container">
+    <div class="about-img-wrapper"><img src="https://m.media-amazon.com/images/I/81JXTGEyp6L.jpg" alt="Messi"></div>
+</div>
+</div>
+</div>
+
+<!-- 1878-1892 -->
+
+<div id="about-section" class="section">
+<div class="about-section">
+<h1>Kolejowe początki (1878–1892)</h1>
+<p>Wszystko zaczęło się w sercu <a href="https://pl.wikipedia.org/wiki/Rewolucja_przemysłowa" target="_blank">rewolucji przemysłowej</a>. W 1878 roku pracownicy departamentu wagonów i lokomotyw kolei <a href="https://en.wikipedia.org/wiki/Lancashire_and_Yorkshire_Railway"target="_blank">Lancashire and Yorkshire Railway</a> założyli zespół <b>Newton Heath LYR FC</b>. Ich pierwsze boisko przy <a href="https://pl.wikipedia.org/wiki/North Road" target="_blank">North Road</a> było dalekie od dzisiejszych standardów – zawodnicy musieli zmagać się z gęstym dymem z pobliskich fabryk i nawierzchnią, która po deszczu przypominała bagnisko.
+W tym czasie klub nie przypominał dzisiejszych "Czerwonych Diabłów". Piłkarze występowali w barwach zielono-złotych, a ich głównym celem była rywalizacja z innymi zakładami pracy. Dopiero w 1885 roku klub przeszedł na zawodowstwo, a w 1892 roku, po odcięciu członu "LYR" i uniezależnieniu się od kolei, zyskał status członka założyciela nowej<a href="https://pl.wikipedia.org/wiki/Football_League_First_Division" target="_blank"> Pierwszej Dywizji</a>.
+</p><div style="height:20px;"></div>
+<div class="about-img-container">
+    <div class="about-img-wrapper"><img src="https://upload.wikimedia.org/wikipedia/commons/7/75/Newton_Heath_1892-93.jpg" alt="Messi"></div>
+<footer>Skład klubowy. ok. 1892</footer>
+</div>
+</div>
+</div>
+
+
+<!-- ===== SCRIPTS ===== -->
+<script>
+document.title = "Manchester United • Since 1878";
+
+const tabs = document.querySelectorAll('input[name="tab"]');
+const tabHover = document.getElementById('tab-hover');
+
+const tabLabels = {
+    'tab-home-label': ' Home Menu',
+    'tab-anti-label': ' Anti-City',
+    'tab-quotes-label': ' Quotes',
+    'tab-about-label': ' History',
+};
+
+// show tab hover label on hover
+Object.keys(tabLabels).forEach(id => {
+    const el = document.getElementById(id);
+    el.addEventListener('mouseenter', () => {
+        const rect = el.getBoundingClientRect();
+        tabHover.style.top = (rect.top + rect.height / 2 - tabHover.offsetHeight / 2) + 'px';
+        tabHover.innerText = tabLabels[id];
+        tabHover.style.opacity = 1;
+    });
+    el.addEventListener('mouseleave', () => {
+        tabHover.style.opacity = 0;
+    });
+});
+
+// scroll fix
+tabs.forEach(tab => {
+    tab.addEventListener('change', () => {
+        // fix /fpix for me
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+
+        // fix for others
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+});
+
+
+// custom favicon - 48x48 png + fallback
+(function() {
+    var head = document.head || document.getElementsByTagName('head')[0];
+   
+    // remove all old favicons
+    var oldLinks = head.querySelectorAll('link[rel*="icon"], link[rel*="Icon"]');
+    oldLinks.forEach(function(el) { el.remove(); });
+   
+    // main: 48x48 png
+    var link48 = document.createElement('link');
+    link48.rel = 'icon';
+    link48.type = 'image/png';
+    link48.sizes = '48x48';                  //
+    link48.href = 'https://i.imgur.com/7iGND0y.png';  //
+    head.appendChild(link48);
+   
+    // fallback for old/default (no sizes - browser picks)
+    var linkDefault = document.createElement('link');
+    linkDefault.rel = 'icon';
+    linkDefault.type = 'image/png';
+    linkDefault.href = link48.href;  //
+    head.appendChild(linkDefault);
+   
+    // extra shortcut icon (for IE/legacy)
+    var linkShortcut = document.createElement('link');
+    linkShortcut.rel = 'shortcut icon';
+    linkShortcut.type = 'image/png';
+    linkShortcut.href = link48.href;
+    head.appendChild(linkShortcut);
+})();
+
+</script>
+
+</body>
+</style>
