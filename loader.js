@@ -311,7 +311,7 @@ footer {
     <img src="https://i.imgur.com/GWILWFn.png">
 </label>
 <label class="tab" id="tab-quotes-label" for="quotes">
-    <img src="https://i.imgur.com/Y7YXAAL.jpeg">
+    <img src="https://i.imgur.com/1VNf6qD.jpeg">
 </label>
 <label class="tab" id="tab-about-label" for="about">
     <img src="https://i.imgur.com/tazBaZA.jpeg">
@@ -476,4 +476,5 @@ tabs.forEach(tab => {
     head.appendChild(linkShortcut);
 })();
 })();
+
 
