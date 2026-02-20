@@ -26,22 +26,28 @@
   container.innerHTML = `
   <style>
 /* ===== BODY ===== */
+#full-profile-container {
+    margin: 0 !important;
+    padding: 0 !important;
+}
 body {
-    margin: 0;
-    padding: 0;
+    margin: 0 !important;
+    padding: 0 !important;
     font-family: 'Verdana', sans-serif;
     cursor: url('https://i.imgur.com/bv3mL7T.png'), auto; /* custom cursor */
     color: #fff;
     box-sizing: border-box;
     background: url('https://cdn.wallpapersafari.com/38/2/cXyvkH.jpg') no-repeat center center fixed;
     background-size: cover;
+    min-height: 100vh;
+    overflow-y: auto;
 }
 
 /* ===== GLOBAL BODY: REMOVE DEFAULT MARGINS & HIDE HORIZONTAL SCROLL ===== */
 html, body {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden; /*  blocks horizontal scrolling */
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow-x: hidden !important;
 }
 
 /* ===== HIDE CHATANGO ELEMENTS ===== */
@@ -274,11 +280,15 @@ h1, h2 {
 /* ===== FOOTER ===== */
 footer {
     font-size: 24px;
- margin-bottom: 0;
+    margin-bottom:  0;
     padding: 20px 0;
     text-align: center;
     color: #f7f7f7;
     text-shadow: 0 0 5px #DA291C,0 0 10px #DA291C,0 0 20px #DA291C;
+    margin: 0 !important;
+    padding: 20px 0 !important; /* jeśli chcesz padding */
+    display: block;
+    line-height: 1 !important;
 }
 </style>
 
@@ -466,3 +476,4 @@ tabs.forEach(tab => {
     head.appendChild(linkShortcut);
 })();
 })();
+
