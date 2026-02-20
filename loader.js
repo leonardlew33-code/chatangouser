@@ -14,44 +14,44 @@
       '#show_chat_btn',
       '.profile_text:nth-last-child(3), .profile_text > strong:not(.profile_text .profile_text strong)',
       '.bottombar',
-        'link[href="/styles/styles002.css"], link[href="/styles/profiles_styles.css"]'
+      'link[href="/styles/styles002.css"], link[href="/styles/profiles_styles.css"]'
     ].join(',')).forEach(el => el.remove());
   }, 200);
- 
+
   // ===============================
   // INJECT YOUR FULL PROFILE INTO A CONTAINER
   // ===============================
   const container = document.createElement('div');
   container.id = 'full-profile-container';
-  container.innerHTML = `<style>
- 
+  container.innerHTML = `
+  <style>
 /* ===== BODY ===== */
 body {
-    0;
+    margin: 0;
     padding: 0;
-    'Verdana', sans-serif;
-    cursor: u rl('https://i.imgur.com/bv3mL7T.png'), auto; /* custom cursor */
+    font-family: 'Verdana', sans-serif;
+    cursor: url('https://i.imgur.com/bv3mL7T.png'), auto; /* custom cursor */
     color: #fff;
     box-sizing: border-box;
-    background: u rl('https://cdn.wallpapersafari.com/38/2/cXyvkH.jpg') no-repeat center center fixed;
+    background: url('https://cdn.wallpapersafari.com/38/2/cXyvkH.jpg') no-repeat center center fixed;
     background-size: cover;
 }
- 
+
 /* ===== GLOBAL BODY: REMOVE DEFAULT MARGINS & HIDE HORIZONTAL SCROLL ===== */
 html, body {
-    0;
+    margin: 0;
     padding: 0;
     overflow-x: hidden; /*  blocks horizontal scrolling */
 }
- 
+
 /* ===== HIDE CHATANGO ELEMENTS ===== */
 body > font { display: none; }
 #fpix_wrapper, #fpix_wrapper + font { display: none; }
 #chatango-log { left: 40%; }
- 
+
 /* ===== HIDE RADIO INPUTS ===== */
 input[name="tab"] { display: none; }
- 
+
 /* ===== LEFT TABS ===== */
 .tab {
     position: fixed;
@@ -70,13 +70,13 @@ input[name="tab"] { display: none; }
     z-index: 1000;
 }
 .tab:hover { transform: scale(1.1); }
- 
+
 /* ===== TAB POSITIONS ===== */
 #tab-home-label { top: 150px; }
 #tab-anti-label { top: 230px; }
 #tab-quotes-label { top: 310px; }
 #tab-about-label { top: 390px; }
- 
+
 /* ===== TAB HOVER LABEL ===== */
 .tab-hover-label {
     position: fixed;
@@ -91,18 +91,18 @@ input[name="tab"] { display: none; }
     z-index: 999;
     white-space: nowrap;
 }
- 
+
 /* ===== TAB IMAGES ===== */
 .tab img { width: 100%; height: 100%; object-fit: cover; }
- 
+
 /* ===== SECTIONS ===== */
 .section {
     display: none;
     width: 90%;
     max-width: 1200px;
-    20px auto;
+    margin: 20px auto;
 }
- 
+
 /* show section depending on checked input */
 #home:checked ~ #home-section,
 #anti:checked ~ #anti-section,
@@ -110,63 +110,62 @@ input[name="tab"] { display: none; }
 #about:checked ~ #about-section {
     display: block;
 }
- 
+
 /* ===== HEADER & MAIN TEXT ===== */
 header img {
     width: 250px;
     animation: pulse 2s infinite alternate;
     display: block;
-    20px auto;
+    margin: 20px auto;      
 }
 @keyframes pulse {
     from { transform: scale(1); }
     to { transform: scale(1.1); }
 }
- 
+
 h1, h2 {
     font-size: 47px;
     font-weight: 600;
     text-align: center;
-    20px 0 10px 0;
+    margin: 20px 0 10px 0;
     color: #ffffff;
     text-shadow: 0 0 5px #DA291C,0 0 10px #DA291C,0 0 20px #DA291C,0 0 40px #DA291C;
     animation: glow 1.5s infinite alternate;
 }
- 
+
 @keyframes glow {
     0% { text-shadow: 0 0 5px #DA291C,0 0 10px #DA291C,0 0 20px #DA291C,0 0 40px #DA291C; }
     100% { text-shadow: 0 0 10px #DA291C,0 0 20px #DA291C,0 0 30px #DA291C,0 0 60px #DA291C; }
 }
- 
- 
+
+
 #home-section .home-credits {
     text-align: center;
     font-weight: 500;
-    color: #ffffff;        
-    10px;
-    20px;
+    color: #ffffff;
+    padding: 10px 20px; /* 10px góra/dół, 20px lewo/prawo */
     font-size: 16px;
 }
- 
+
 #home-section .home-credits a {
     color: #ff0000;          
     text-decoration: underline;
     text-shadow: 0 0 5px #DA291C, 0 0 10px #DA291C;
     transition: transform 0.2s, text-shadow 0.2s;
 }
- 
+
 #home-section .home-credits a:hover {
     transform: scale(1.1);  
     text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000;
 }
- 
+
 /* ===== SKŁAD ===== */
 .skład {
     width: 100%;
     border: 5px solid #DA291C;
     border-radius: 20px;
     box-shadow: 0 0 30px #DA291C;
-    30px;
+    margin-bottom: 30px;
 }
 .skład img {
     width: 100%;
@@ -174,8 +173,8 @@ h1, h2 {
     border-radius: 15px;
     display: block;
 }
- 
- 
+
+
 /* ===== ANTI-CITY GALLERY ===== */
 .anti-gallery {
     display: grid;
@@ -201,7 +200,7 @@ h1, h2 {
     transform: scale(1.05);
     box-shadow: 0 0 15px #ff0000,0 0 30px #ff0000;
 }
- 
+
 /* ===== QUOTES ===== */
 .quotes-section {
     display: flex;
@@ -209,7 +208,7 @@ h1, h2 {
     gap: 20px;
     width: 90%;
     max-width: 800px;
-    20px auto;
+    margin: 20px auto;
 }
 .quote-box {
     background-color: rgba(44, 9, 9, 0.425);
@@ -219,7 +218,7 @@ h1, h2 {
     color: #fff;
     box-shadow: 0 0 15px #ff0000;
     font-size: 18px;
-    1.4;
+    line-height: 1.4;
     display: inline-block;
     text-align: center;
     max-width: 100%;
@@ -229,14 +228,14 @@ h1, h2 {
     content: "❝";
     font-size: 24px;
     color: #00f6ff;
-    5px;
+    margin-right: 5px;
 }
- 
+
 /* ===== HISTORY ===== */
 .about-section {
     width: 80%;
     max-width: 900px;
-    30px auto;
+    margin: 30px auto;
     padding: 25px 30px;
     background: linear-gradient(145deg, rgba(219, 0, 0, 0.158), rgba(219, 0, 0, 0.158));
     border: 3px solid #ff0000;
@@ -244,7 +243,7 @@ h1, h2 {
     box-shadow: 0 0 25px #000000;
     color: #ffffff;
     font-size: 20px;
-    1.6;
+    font-size: 20px;
     text-align: center;
     font-weight: 500;
 }
@@ -253,7 +252,7 @@ h1, h2 {
     justify-content: center;
     gap: 50px;
     flex-wrap: wrap;
-    20px;
+    margin-top: 20px;
 }
 .about-section .about-img-wrapper {
     width: 600px;
@@ -271,31 +270,30 @@ h1, h2 {
     width: 100%;
     display: block;
 }
- 
+
 /* ===== FOOTER ===== */
 footer {
     font-size: 24px;
-    0;
+ margin-bottom: 0;
     padding: 20px 0;
     text-align: center;
     color: #f7f7f7;
     text-shadow: 0 0 5px #DA291C,0 0 10px #DA291C,0 0 20px #DA291C;
 }
- 
 </style>
- 
+
 <body>
 <!-- ===== RADIO INPUTS ===== -->
 <input type="radio" name="tab" id="home" checked>
 <input type="radio" name="tab" id="anti">
 <input type="radio" name="tab" id="quotes">
 <input type="radio" name="tab" id="about">
- 
+
 <!-- ===== TAB HOVER LABEL ===== -->
 <div id="tab-hover" class="tab-hover-label"></div>
- 
+
 <!-- ===== LEFT TABS ===== -->
- 
+
 <label class="tab" id="tab-home-label" for="home">
     <img src="https://upload.wikimedia.org/wikipedia/en/7/7a/Manchester_United_FC_crest.svg">
 </label>
@@ -308,7 +306,7 @@ footer {
 <label class="tab" id="tab-about-label" for="about">
     <img src="https://i.imgur.com/tazBaZA.jpeg">
 </label>
- 
+
 <!-- ===== HOME SECTION ===== -->
 <div id="home-section" class="section">
 <header>
@@ -317,11 +315,11 @@ footer {
 <h1><b>❤️ 𝔊𝔩𝔬𝔯𝔶 𝔊𝔩𝔬𝔯𝔶 𝔐𝔞𝔫 𝔘𝔫𝔦𝔱𝔢𝔡 ❤️</b></h1>
 <h2><b><i>🖤 UP THE RED DEVILS 🖤</i></b></h2>
 <div style="height: 25px;"></div>
- 
+
 <div class="skład">
 <img src="https://i.imgur.com/mvh3EAp.png">
 </div>
- 
+
 <footer>Old Trafford • Since 1878</footer>
 <!-- Credits -->
   <h3 class="home-credits">
@@ -329,9 +327,8 @@ footer {
   <a href="https://justpaste.it/redirect/e97vh/https%3A%2F%2Fantymadridista.chatango.com%2F" target="_blank">AntyMadridista</a>
 </h3>
 </div>
- 
- 
- 
+
+
 <!-- ===== ANTI-CITY SECTION ===== -->
 <div id="anti-section" class="section">
 <div class="anti-gallery">
@@ -346,6 +343,7 @@ footer {
     <div class="gallery-item"><img src="https://i.imgur.com/ZPZHPMN.png" alt=""></div>
 </div>
 </div>
+
 <!-- ===== QUOTES SECTION ===== -->
 <div id="quotes-section" class="section">
 <div class="quotes-section">
@@ -362,7 +360,7 @@ footer {
     <div class="quote-box">🚨🎙️"When you play for Manchester United, you play to win everything." – Roy Keane</div>
 </div>
 </div>
- 
+
 <!-- ===== HISTORY SECTION ===== -->
 <div id="about-section" class="section">
 <div class="about-section">
@@ -374,9 +372,9 @@ footer {
 </div>
 </div>
 </div>
- 
+
 <!-- 1878-1892 -->
- 
+
 <div id="about-section" class="section">
 <div class="about-section">
 <h1>Kolejowe początki (1878–1892)</h1>
@@ -390,27 +388,26 @@ W tym czasie klub nie przypominał dzisiejszych "Czerwonych Diabłów". Piłkarz
 </div>
 </div>
 </body>
- 
   `;
- 
+
   // append after chatango mini profile / body
   document.body.appendChild(container);
- 
+
    // ===============================
   // ↓↓↓ JS FROM HTML CODE AFTER HTML AND CSS INJECTION WITHOUT <script> </script>
   // ===============================
 document.title = "Manchester United • Since 1878";
- 
+
 const tabs = document.querySelectorAll('input[name="tab"]');
 const tabHover = document.getElementById('tab-hover');
- 
+
 const tabLabels = {
     'tab-home-label': ' Home Menu',
     'tab-anti-label': ' Anti-City',
     'tab-quotes-label': ' Quotes',
     'tab-about-label': ' History',
 };
- 
+
 // show tab hover label on hover
 Object.keys(tabLabels).forEach(id => {
     const el = document.getElementById(id);
@@ -424,28 +421,28 @@ Object.keys(tabLabels).forEach(id => {
         tabHover.style.opacity = 0;
     });
 });
- 
+
 // scroll fix
 tabs.forEach(tab => {
     tab.addEventListener('change', () => {
         // fix /fpix for me
         document.body.scrollTop = 0;
         document.documentElement.scrollTop = 0;
- 
+
         // fix for others
         window.scrollTo({ top: 0, behavior: 'smooth' });
     });
 });
- 
- 
+
+
 // custom favicon - 48x48 png + fallback
 (function() {
     var head = document.head || document.getElementsByTagName('head')[0];
- 
+   
     // remove all old favicons
     var oldLinks = head.querySelectorAll('link[rel*="icon"], link[rel*="Icon"]');
     oldLinks.forEach(function(el) { el.remove(); });
- 
+   
     // main: 48x48 png
     var link48 = document.createElement('link');
     link48.rel = 'icon';
@@ -453,14 +450,14 @@ tabs.forEach(tab => {
     link48.sizes = '48x48';                  //
     link48.href = 'https://i.imgur.com/7iGND0y.png';  //
     head.appendChild(link48);
- 
+   
     // fallback for old/default (no sizes - browser picks)
     var linkDefault = document.createElement('link');
     linkDefault.rel = 'icon';
     linkDefault.type = 'image/png';
     linkDefault.href = link48.href;  //
     head.appendChild(linkDefault);
- 
+   
     // extra shortcut icon (for IE/legacy)
     var linkShortcut = document.createElement('link');
     linkShortcut.rel = 'shortcut icon';
@@ -468,5 +465,4 @@ tabs.forEach(tab => {
     linkShortcut.href = link48.href;
     head.appendChild(linkShortcut);
 })();
- 
 })();
