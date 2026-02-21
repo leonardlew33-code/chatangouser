@@ -393,10 +393,11 @@ W tym czasie klub nie przypominał dzisiejszych "Czerwonych Diabłów". Piłkarz
 </p><div style="height:20px;"></div>
 <div class="about-img-container">
 <div class="about-img-wrapper"><img src="https://upload.wikimedia.org/wikipedia/commons/7/75/Newton_Heath_1892-93.jpg" alt="Messi"></div>
-<footer>Skład klubowy. ok. 1892</footer>
+<footer><p style="font-size: 2;">Skład klubowy. ok. 1892</p></footer>
 </div>
 </div>
 </div>
+
 <!-- 1892-1902 -->
 <div id="about-section" class="section">
 <div class="about-section">
@@ -404,8 +405,9 @@ W tym czasie klub nie przypominał dzisiejszych "Czerwonych Diabłów". Piłkarz
 <p>Sportowy debiut w elicie okazał się jednak bolesny. Po dwóch sezonach walki na dnie tabeli, w 1894 roku doszło do kluczowego meczu barażowego o utrzymanie z <a href="https://pl.wikipedia.org/wiki/Liverpool_F.C." target="_blank">Liverpool FC</a>. Porażka 0:2 nie tylko zepchnęła klub do <a href="https://pl.wikipedia.org/wiki/Football_League_Second_Division" target="_blank">Drugiej Dywizji</a> na kolejne osiem lat, ale stała się oficjalnym początkiem trwającej do dziś <a href="https://en.wikipedia.org/wiki/Liverpool_F.C.–Manchester_United_F.C._rivalry" target="_blank">rywalizacji obu miast</a>. Pobyt na zapleczu był dla Newton Heath okresem wegetacji – mimo kilku szans na awans, zespół seryjnie zawodził w decydujących momentach, co doprowadziło do drastycznego spadku zainteresowania kibiców i katastrofy finansowej.
 U progu nowego stulecia, w 1901 roku, sytuacja stała się beznadziejna. Klub tonął w długach przekraczających 2600 funtów, co doprowadziło do wydania sądowego <b>nakazu likwidacji</b> i zamknięcia stadionu przez komornika. Wtedy wydarzył się najsłynniejszy zwrot akcji w historii sportu: kapitan drużyny <a href="https://pl.wikipedia.org/wiki/Harry_Stafford" target="_blank">Harry Stafford</a>, zbierając fundusze na ratunek klubu, zgubił swojego psa – bernardyna o imieniu Major. Czworonoga odnalazł zamożny piwowar <a href="https://en.wikipedia.org/wiki/John_Henry_Davies" target="_blank">John Henry Davies</a>, który po rozmowie ze Staffordem zdecydował się spłacić długi i zainwestować w upadający zespół.
 Davies postawił jednak twardy warunek: całkowite zerwanie z dotychczasową, robotniczą tożsamością. 24 kwietnia 1902 roku oficjalnie zarejestrowano nazwę <b>Manchester United Football Club</b>, porzucono zielono-złote barwy na rzecz czerwieni i bieli<p>
-
-<div class="about-img-wrapper"><img src="https://i.imgur.com/y3KQLMT.png" alt="Messi"></div>
+<div class="about-img-container">
+<div class="about-img-wrapper">
+<img src="https://i.imgur.com/y3KQLMT.png" alt="Messi"><p style="font-size: 2;">John Henry Davies.</p></div>
 
 </div>
 </div>
@@ -489,6 +491,7 @@ tabs.forEach(tab => {
     head.appendChild(linkShortcut);
 })();
 })();
+
 
 
 
