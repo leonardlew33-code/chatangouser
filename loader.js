@@ -407,7 +407,7 @@ U progu nowego stulecia, w 1901 roku, sytuacja stała się beznadziejna. Klub to
 Davies postawił jednak twardy warunek: całkowite zerwanie z dotychczasową, robotniczą tożsamością. 24 kwietnia 1902 roku oficjalnie zarejestrowano nazwę <b>Manchester United Football Club</b>, porzucono zielono-złote barwy na rzecz czerwieni i bieli<p>
 <div class="about-img-container">
 <div class="about-img-wrapper">
-<img src="https://i.imgur.com/y3KQLMT.png" width="150" alt="Messi"></div>
+<img src="https://i.imgur.com/y3KQLMT.png" width="100" alt="Messi"></div>
 <footer>John Henry Davies. data portretu nieznana</footer>
 
 </div>
@@ -492,6 +492,7 @@ tabs.forEach(tab => {
     head.appendChild(linkShortcut);
 })();
 })();
+
 
 
 
