@@ -393,7 +393,7 @@ W tym czasie klub nie przypominał dzisiejszych "Czerwonych Diabłów". Piłkarz
 </p><div style="height:20px;"></div>
 <div class="about-img-container">
 <div class="about-img-wrapper"><img src="https://upload.wikimedia.org/wikipedia/commons/7/75/Newton_Heath_1892-93.jpg" alt="Messi"></div>
-<footer><p style="font-size: 2;">Skład klubowy. ok. 1892</p></footer>
+<footer>Skład klubowy. ok. 1892</footer>
 </div>
 </div>
 </div>
@@ -492,6 +492,7 @@ tabs.forEach(tab => {
     head.appendChild(linkShortcut);
 })();
 })();
+
 
 
 
