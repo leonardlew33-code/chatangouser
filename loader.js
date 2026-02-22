@@ -444,7 +444,7 @@ Efekty przyszły błyskawicznie. W 1908 roku, zaledwie sześć lat po widmie ban
 W 1910 roku otwarto <a href="https://pl.wikipedia.org/wiki/Old_Trafford" target="_blank">Old Trafford</a> – stadion, który rozmachem przyćmił konkurencję. Nowa arena szybko stała się świadkiem kolejnego triumfu: w 1911 roku klub świętował tam swoje <a href="https://pl.wikipedia.org/wiki/Piłka_nożna_w_Anglii_(1910/1911)" target="_blank">drugie mistrzostwo</a>. W ciągu zaledwie dekady Manchester United przeszedł niewiarygodną drogę – od komornika na stadionie po absolutną dominację w angielskim futbolu.
 </p><div class="about-img-container">
 <div class="about-img-wrapper">
-<img src="https://i.imgur.com/CltpkTZ.jpeg" alt="Messi"><div
+<img src="https://i.imgur.com/CltpkTZ.jpeg" alt="Messi"></div>
 <footer>Skład United po zwycięstwie ligowym. ok. 1911</footer>
 
 </div>
@@ -530,6 +530,7 @@ tabs.forEach(tab => {
     head.appendChild(linkShortcut);
 })();
 });
+
 
 
 
