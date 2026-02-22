@@ -445,8 +445,7 @@ W 1910 roku otwarto <a href="https://pl.wikipedia.org/wiki/Old_Trafford" target=
 </p><div style="height:20px;"></div>
 <div class="about-img-container">
 <div class="about-img-wrapper">
-    <img src="https://i.imgur.com/CltpkTZ.jpeg" alt="Messi">
-</div>
+<img src="https://i.imgur.com/CltpkTZ.jpeg" alt="Messi">
 <footer>Skład United po zwycięstwie ligowym. ok. 1911</footer>
 </div>
 </div>
@@ -531,6 +530,7 @@ tabs.forEach(tab => {
     head.appendChild(linkShortcut);
 })();
 });
+
 
 
 
