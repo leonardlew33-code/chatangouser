@@ -435,6 +435,7 @@ Davies postawił jednak twardy warunek: całkowite zerwanie z dotychczasową, ro
 </div>
 
 <!-- 1902-1911 -->
+
 <div id="about-section" class="section">
 <div class="about-section">
 <h1>Era Ernesta Mangnalla: Pierwsze złote lata United (1902-1911)</h1>
@@ -527,6 +528,7 @@ tabs.forEach(tab => {
     head.appendChild(linkShortcut);
 })();
 });
+
 
 
 
