@@ -1,30 +1,39 @@
-(() => {
+// loader.js
+window.addEventListener('load', () => {
+ 
   // ===============================
-  // REMOVE UNWANTED CHATANGO ELEMENTS
+  // REMOVE CHATANGO ELEMENTS
   // ===============================
-  setTimeout(() => {
-    document.querySelectorAll([
-      '#fpix_wrapper',
-      '#fpix_wrapper + font',
-      '#chatango-log',
-      '.bottombar.has-border.fix-to-bottom',
-      '#fpix_wrapper table:first-child',
-      '#profilephoto',
-      '#rect_ad, #buyers_ad',
-      '#show_chat_btn',
-      '.profile_text:nth-last-child(3), .profile_text > strong:not(.profile_text .profile_text strong)',
-      '.bottombar',
-      'link[href="/styles/styles002.css"], link[href="/styles/profiles_styles.css"]'
-    ].join(',')).forEach(el => el.remove());
-  }, 200);
-
+ 
+  // Remove main wrapper
+  const mainWrapper = document.getElementById('fpix_wrapper');
+  if (mainWrapper) mainWrapper.remove();
+ 
+  // Remove bottom bar (old bottombar)
+  document.querySelectorAll('center').forEach(center => {
+    const bar = center.querySelector('.bottombar');
+    if (bar) center.remove();
+  });
+ 
+  // Remove the new <center> with 625px table
+  document.querySelectorAll('center > table[width="625"]').forEach(table => {
+    const center = table.closest('center');
+    if (center) center.remove();
+  });
+ 
+  // Remove all <br> directly in body
+  Array.from(document.body.childNodes).forEach(node => {
+    if (node.nodeName === 'BR') node.remove();
+  });
+ 
   // ===============================
-  // INJECT YOUR FULL PROFILE INTO A CONTAINER
+  // INJECT CUSTOM PROFILE CONTAINER
   // ===============================
+ 
   const container = document.createElement('div');
   container.id = 'full-profile-container';
   container.innerHTML = `
-  <style>
+ <style>
 /* ===== BODY ===== */
 #full-profile-container {
     margin: 0 !important;
@@ -42,22 +51,22 @@ body {
     min-height: 100vh;
     overflow-y: auto;
 }
-
+ 
 /* ===== GLOBAL BODY: REMOVE DEFAULT MARGINS & HIDE HORIZONTAL SCROLL ===== */
 html, body {
     margin: 0 !important;
     padding: 0 !important;
     overflow-x: hidden !important;
 }
-
+ 
 /* ===== HIDE CHATANGO ELEMENTS ===== */
 body > font { display: none; }
 #fpix_wrapper, #fpix_wrapper + font { display: none; }
 #chatango-log { left: 40%; }
-
+ 
 /* ===== HIDE RADIO INPUTS ===== */
 input[name="tab"] { display: none; }
-
+ 
 /* ===== LEFT TABS ===== */
 .tab {
     position: fixed;
@@ -76,13 +85,13 @@ input[name="tab"] { display: none; }
     z-index: 1000;
 }
 .tab:hover { transform: scale(1.1); }
-
+ 
 /* ===== TAB POSITIONS ===== */
 #tab-home-label { top: 150px; }
 #tab-anti-label { top: 230px; }
 #tab-quotes-label { top: 310px; }
 #tab-about-label { top: 390px; }
-
+ 
 /* ===== TAB HOVER LABEL ===== */
 .tab-hover-label {
     position: fixed;
@@ -97,10 +106,10 @@ input[name="tab"] { display: none; }
     z-index: 999;
     white-space: nowrap;
 }
-
+ 
 /* ===== TAB IMAGES ===== */
 .tab img { width: 100%; height: 100%; object-fit: cover; }
-
+ 
 /* ===== SECTIONS ===== */
 .section {
     display: none;
@@ -108,7 +117,7 @@ input[name="tab"] { display: none; }
     max-width: 1200px;
     margin: 20px auto;
 }
-
+ 
 /* show section depending on checked input */
 #home:checked ~ #home-section,
 #anti:checked ~ #anti-section,
@@ -116,7 +125,7 @@ input[name="tab"] { display: none; }
 #about:checked ~ #about-section {
     display: block;
 }
-
+ 
 /* ===== HEADER & MAIN TEXT ===== */
 header img {
     width: 250px;
@@ -128,7 +137,7 @@ header img {
     from { transform: scale(1); }
     to { transform: scale(1.1); }
 }
-
+ 
 h1, h2 {
     font-size: 47px;
     font-weight: 600;
@@ -138,33 +147,33 @@ h1, h2 {
     text-shadow: 0 0 5px #DA291C,0 0 10px #DA291C,0 0 20px #DA291C,0 0 40px #DA291C;
     animation: glow 1.5s infinite alternate;
 }
-
+ 
 @keyframes glow {
     0% { text-shadow: 0 0 5px #DA291C,0 0 10px #DA291C,0 0 20px #DA291C,0 0 40px #DA291C; }
     100% { text-shadow: 0 0 10px #DA291C,0 0 20px #DA291C,0 0 30px #DA291C,0 0 60px #DA291C; }
 }
-
-
+ 
+ 
 #home-section .home-credits {
     text-align: center;
     font-weight: 500;
     color: #ffffff;
-    padding: 10px 20px; /* 10px góra/dół, 20px lewo/prawo */
+    padding: 10px 20px; /* 10px góra/dół, 20px lewo/prawo */	
     font-size: 16px;
 }
-
+ 
 #home-section .home-credits a {
-    color: #ff0000;          
+    color: #ffffff;          
     text-decoration: underline;
-    text-shadow: 0 0 5px #DA291C, 0 0 10px #DA291C;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff;
     transition: transform 0.2s, text-shadow 0.2s;
 }
-
+ 
 #home-section .home-credits a:hover {
     transform: scale(1.1);  
-    text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000;
+    text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff;
 }
-
+ 
 /* ===== SKŁAD ===== */
 .skład {
     width: 100%;
@@ -179,8 +188,8 @@ h1, h2 {
     border-radius: 15px;
     display: block;
 }
-
-
+ 
+ 
 /* ===== ANTI-CITY GALLERY ===== */
 .anti-gallery {
     display: grid;
@@ -206,7 +215,7 @@ h1, h2 {
     transform: scale(1.05);
     box-shadow: 0 0 15px #ff0000,0 0 30px #ff0000;
 }
-
+ 
 /* ===== QUOTES ===== */
 .quotes-section {
     display: flex;
@@ -236,7 +245,7 @@ h1, h2 {
     color: #00f6ff;
     margin-right: 5px;
 }
-
+ 
 /* ===== HISTORY ===== */
 .about-section {
     width: 80%;
@@ -276,7 +285,17 @@ h1, h2 {
     width: 100%;
     display: block;
 }
-
+/* ===== PIONOWA RAMKA TYLKO DLA PORTRETU ===== */
+.about-section .about-img-wrapper.portrait {
+    width: 280px;      
+    aspect-ratio: 2 / 3; 
+}
+.about-section .about-img-wrapper.portrait img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+ 
 /* ===== FOOTER ===== */
 footer {
     font-size: 24px;
@@ -291,19 +310,19 @@ footer {
     line-height: 1 !important;
 }
 </style>
-
+ 
 <body>
 <!-- ===== RADIO INPUTS ===== -->
 <input type="radio" name="tab" id="home" checked>
 <input type="radio" name="tab" id="anti">
 <input type="radio" name="tab" id="quotes">
 <input type="radio" name="tab" id="about">
-
+ 
 <!-- ===== TAB HOVER LABEL ===== -->
 <div id="tab-hover" class="tab-hover-label"></div>
-
+ 
 <!-- ===== LEFT TABS ===== -->
-
+ 
 <label class="tab" id="tab-home-label" for="home">
     <img src="https://upload.wikimedia.org/wikipedia/en/7/7a/Manchester_United_FC_crest.svg">
 </label>
@@ -316,7 +335,7 @@ footer {
 <label class="tab" id="tab-about-label" for="about">
     <img src="https://i.imgur.com/tazBaZA.jpeg">
 </label>
-
+ 
 <!-- ===== HOME SECTION ===== -->
 <div id="home-section" class="section">
 <header>
@@ -325,20 +344,20 @@ footer {
 <h1><b>❤️ 𝔊𝔩𝔬𝔯𝔶 𝔊𝔩𝔬𝔯𝔶 𝔐𝔞𝔫 𝔘𝔫𝔦𝔱𝔢𝔡 ❤️</b></h1>
 <h2><b><i>🖤 UP THE RED DEVILS 🖤</i></b></h2>
 <div style="height: 25px;"></div>
-
+ 
 <div class="skład">
 <img src="https://i.imgur.com/mvh3EAp.png">
 </div>
-
+ 
 <footer>Old Trafford • Since 1878</footer>
 <!-- Credits -->
   <h3 class="home-credits">
   Inspired and helped with this profile -
-  <a href="https://justpaste.it/redirect/e97vh/https%3A%2F%2Fantymadridista.chatango.com%2F" target="_blank">AntyMadridista</a>
+  <a href="https://antymadridista.chatango.com" target="_blank">AntyMadridista</a>
 </h3>
 </div>
-
-
+ 
+ 
 <!-- ===== ANTI-CITY SECTION ===== -->
 <div id="anti-section" class="section">
 <div class="anti-gallery">
@@ -353,7 +372,7 @@ footer {
     <div class="gallery-item"><img src="https://i.imgur.com/ZPZHPMN.png" alt=""></div>
 </div>
 </div>
-
+ 
 <!-- ===== QUOTES SECTION ===== -->
 <div id="quotes-section" class="section">
 <div class="quotes-section">
@@ -370,7 +389,7 @@ footer {
     <div class="quote-box">🚨🎙️"When you play for Manchester United, you play to win everything." – Roy Keane</div>
 </div>
 </div>
-
+ 
 <!-- ===== HISTORY SECTION ===== -->
 <div id="about-section" class="section">
 <div class="about-section">
@@ -382,22 +401,22 @@ footer {
 </div>
 </div>
 </div>
-
+ 
 <!-- 1878-1892 -->
-
+ 
 <div id="about-section" class="section">
 <div class="about-section">
-<h1>Kolejowe początki (1878–1892)</h1>
+<h1>Kolejowe początki (1878r–1892r)</h1>
 <p>Wszystko zaczęło się w sercu <a href="https://justpaste.it/redirect/e97vh/https%3A%2F%2Fpl.wikipedia.org%2Fwiki%2FRewolucja_przemys%C5%82owa" target="_blank">rewolucji przemysłowej</a>. W 1878 roku pracownicy departamentu wagonów i lokomotyw kolei <a href="https://justpaste.it/redirect/e97vh/https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FLancashire_and_Yorkshire_Railway"target="_blank">Lancashire and Yorkshire Railway</a> założyli zespół <b>Newton Heath LYR FC</b>. Ich pierwsze boisko przy <a href="https://justpaste.it/redirect/e97vh/https%3A%2F%2Fpl.wikipedia.org%2Fwiki%2FNorth%20Road" target="_blank">North Road</a> było dalekie od dzisiejszych standardów – zawodnicy musieli zmagać się z gęstym dymem z pobliskich fabryk i nawierzchnią, która po deszczu przypominała bagnisko.
 W tym czasie klub nie przypominał dzisiejszych "Czerwonych Diabłów". Piłkarze występowali w barwach zielono-złotych, a ich głównym celem była rywalizacja z innymi zakładami pracy. Dopiero w 1885 roku klub przeszedł na zawodowstwo, a w 1892 roku, po odcięciu członu "LYR" i uniezależnieniu się od kolei, zyskał status członka założyciela nowej<a href="https://justpaste.it/redirect/e97vh/https%3A%2F%2Fpl.wikipedia.org%2Fwiki%2FFootball_League_First_Division" target="_blank"> Pierwszej Dywizji</a>.
 </p><div style="height:20px;"></div>
 <div class="about-img-container">
 <div class="about-img-wrapper"><img src="https://upload.wikimedia.org/wikipedia/commons/7/75/Newton_Heath_1892-93.jpg" alt="Messi"></div>
-<footer>Skład klubowy. ok. 1892</footer>
+<footer>Skład klubowy, ok. 1892r</footer>
 </div>
 </div>
 </div>
-
+ 
 <!-- 1892-1902 -->
 <div id="about-section" class="section">
 <div class="about-section">
@@ -406,34 +425,34 @@ W tym czasie klub nie przypominał dzisiejszych "Czerwonych Diabłów". Piłkarz
 U progu nowego stulecia, w 1901 roku, sytuacja stała się beznadziejna. Klub tonął w długach przekraczających 2600 funtów, co doprowadziło do wydania sądowego <b>nakazu likwidacji</b> i zamknięcia stadionu przez komornika. Wtedy wydarzył się najsłynniejszy zwrot akcji w historii sportu: kapitan drużyny <a href="https://pl.wikipedia.org/wiki/Harry_Stafford" target="_blank">Harry Stafford</a>, zbierając fundusze na ratunek klubu, zgubił swojego psa – bernardyna o imieniu Major. Czworonoga odnalazł zamożny piwowar <a href="https://en.wikipedia.org/wiki/John_Henry_Davies" target="_blank">John Henry Davies</a>, który po rozmowie ze Staffordem zdecydował się spłacić długi i zainwestować w upadający zespół.
 Davies postawił jednak twardy warunek: całkowite zerwanie z dotychczasową, robotniczą tożsamością. 24 kwietnia 1902 roku oficjalnie zarejestrowano nazwę <b>Manchester United Football Club</b>, porzucono zielono-złote barwy na rzecz czerwieni i bieli<p>
 <div class="about-img-container">
-<div class="about-img-wrapper">
-<img src="https://i.imgur.com/y3KQLMT.png" style="width:100px;" alt="Messi"></div>
-<footer>John Henry Davies. data portretu nieznana</footer>
-
+<div class="about-img-wrapper portrait">
+    <img src="https://i.imgur.com/y3KQLMT.png" alt="Portret">
+</div>
+</div>
+<footer>John Henry Davies - data portretu nieznana</footer>
 </div>
 </div>
 </div>
 </body>
   `;
-
-  // append after chatango mini profile / body
+ 
   document.body.appendChild(container);
-
-   // ===============================
-  // ↓↓↓ JS FROM HTML CODE AFTER HTML AND CSS INJECTION WITHOUT <script> </script>
+ 
+  // ===============================
+  // OPTIONAL: CHANGE TITLE & FAVICON
   // ===============================
 document.title = "Manchester United • Since 1878";
-
+ 
 const tabs = document.querySelectorAll('input[name="tab"]');
 const tabHover = document.getElementById('tab-hover');
-
+ 
 const tabLabels = {
     'tab-home-label': ' Home Menu',
     'tab-anti-label': ' Anti-City',
     'tab-quotes-label': ' Quotes',
     'tab-about-label': ' History',
 };
-
+ 
 // show tab hover label on hover
 Object.keys(tabLabels).forEach(id => {
     const el = document.getElementById(id);
@@ -447,28 +466,28 @@ Object.keys(tabLabels).forEach(id => {
         tabHover.style.opacity = 0;
     });
 });
-
+ 
 // scroll fix
 tabs.forEach(tab => {
     tab.addEventListener('change', () => {
         // fix /fpix for me
         document.body.scrollTop = 0;
         document.documentElement.scrollTop = 0;
-
+ 
         // fix for others
         window.scrollTo({ top: 0, behavior: 'smooth' });
     });
 });
-
-
+ 
+ 
 // custom favicon - 48x48 png + fallback
 (function() {
     var head = document.head || document.getElementsByTagName('head')[0];
-   
+ 
     // remove all old favicons
     var oldLinks = head.querySelectorAll('link[rel*="icon"], link[rel*="Icon"]');
     oldLinks.forEach(function(el) { el.remove(); });
-   
+ 
     // main: 48x48 png
     var link48 = document.createElement('link');
     link48.rel = 'icon';
@@ -476,14 +495,14 @@ tabs.forEach(tab => {
     link48.sizes = '48x48';                  //
     link48.href = 'https://i.imgur.com/7iGND0y.png';  //
     head.appendChild(link48);
-   
+ 
     // fallback for old/default (no sizes - browser picks)
     var linkDefault = document.createElement('link');
     linkDefault.rel = 'icon';
     linkDefault.type = 'image/png';
     linkDefault.href = link48.href;  //
     head.appendChild(linkDefault);
-   
+ 
     // extra shortcut icon (for IE/legacy)
     var linkShortcut = document.createElement('link');
     linkShortcut.rel = 'shortcut icon';
@@ -491,20 +510,4 @@ tabs.forEach(tab => {
     linkShortcut.href = link48.href;
     head.appendChild(linkShortcut);
 })();
-})();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+});
