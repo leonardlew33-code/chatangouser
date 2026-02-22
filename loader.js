@@ -406,7 +406,7 @@ footer {
  
 <div id="about-section" class="section">
 <div class="about-section">
-<h1>Kolejowe początki (1878r–1892r)</h1>
+<h1>Kolejowe początki (1878–1892)</h1>
 <p>Wszystko zaczęło się w sercu <a href="https://justpaste.it/redirect/e97vh/https%3A%2F%2Fpl.wikipedia.org%2Fwiki%2FRewolucja_przemys%C5%82owa" target="_blank">rewolucji przemysłowej</a>. W 1878 roku pracownicy departamentu wagonów i lokomotyw kolei <a href="https://justpaste.it/redirect/e97vh/https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FLancashire_and_Yorkshire_Railway"target="_blank">Lancashire and Yorkshire Railway</a> założyli zespół <b>Newton Heath LYR FC</b>. Ich pierwsze boisko przy <a href="https://justpaste.it/redirect/e97vh/https%3A%2F%2Fpl.wikipedia.org%2Fwiki%2FNorth%20Road" target="_blank">North Road</a> było dalekie od dzisiejszych standardów – zawodnicy musieli zmagać się z gęstym dymem z pobliskich fabryk i nawierzchnią, która po deszczu przypominała bagnisko.
 W tym czasie klub nie przypominał dzisiejszych "Czerwonych Diabłów". Piłkarze występowali w barwach zielono-złotych, a ich głównym celem była rywalizacja z innymi zakładami pracy. Dopiero w 1885 roku klub przeszedł na zawodowstwo, a w 1892 roku, po odcięciu członu "LYR" i uniezależnieniu się od kolei, zyskał status członka założyciela nowej<a href="https://justpaste.it/redirect/e97vh/https%3A%2F%2Fpl.wikipedia.org%2Fwiki%2FFootball_League_First_Division" target="_blank"> Pierwszej Dywizji</a>.
 </p><div style="height:20px;"></div>
@@ -423,7 +423,7 @@ W tym czasie klub nie przypominał dzisiejszych "Czerwonych Diabłów". Piłkarz
 <h1>Dekada walki i odrodzenia: Pierwsza Dywizja i bankructwo (1892–1902)</h1>
 <p>Sportowy debiut w elicie okazał się jednak bolesny. Po dwóch sezonach walki na dnie tabeli, w 1894 roku doszło do kluczowego meczu barażowego o utrzymanie z <a href="https://pl.wikipedia.org/wiki/Liverpool_F.C." target="_blank">Liverpool FC</a>. Porażka 0:2 nie tylko zepchnęła klub do <a href="https://pl.wikipedia.org/wiki/Football_League_Second_Division" target="_blank">Drugiej Dywizji</a> na kolejne osiem lat, ale stała się oficjalnym początkiem trwającej do dziś <a href="https://en.wikipedia.org/wiki/Liverpool_F.C.–Manchester_United_F.C._rivalry" target="_blank">rywalizacji obu miast</a>. Pobyt na zapleczu był dla Newton Heath okresem wegetacji – mimo kilku szans na awans, zespół seryjnie zawodził w decydujących momentach, co doprowadziło do drastycznego spadku zainteresowania kibiców i katastrofy finansowej.
 U progu nowego stulecia, w 1901 roku, sytuacja stała się beznadziejna. Klub tonął w długach przekraczających 2600 funtów, co doprowadziło do wydania sądowego <b>nakazu likwidacji</b> i zamknięcia stadionu przez komornika. Wtedy wydarzył się najsłynniejszy zwrot akcji w historii sportu: kapitan drużyny <a href="https://pl.wikipedia.org/wiki/Harry_Stafford" target="_blank">Harry Stafford</a>, zbierając fundusze na ratunek klubu, zgubił swojego psa – bernardyna o imieniu Major. Czworonoga odnalazł zamożny piwowar <a href="https://en.wikipedia.org/wiki/John_Henry_Davies" target="_blank">John Henry Davies</a>, który po rozmowie ze Staffordem zdecydował się spłacić długi i zainwestować w upadający zespół.
-Davies postawił jednak twardy warunek: całkowite zerwanie z dotychczasową, robotniczą tożsamością. 24 kwietnia 1902 roku oficjalnie zarejestrowano nazwę <b>Manchester United Football Club</b>, porzucono zielono-złote barwy na rzecz czerwieni i bieli<p>
+Davies postawił jednak twardy warunek: całkowite zerwanie z dotychczasową, robotniczą tożsamością. 24 kwietnia 1902 roku oficjalnie zarejestrowano nazwę <b>Manchester United Football Club</b>, porzucono zielono-złote barwy na rzecz czerwieni i bieli</p>
 <div class="about-img-container">
 <div class="about-img-wrapper portrait">
     <img src="https://i.imgur.com/y3KQLMT.png" alt="Portret">
@@ -433,7 +433,25 @@ Davies postawił jednak twardy warunek: całkowite zerwanie z dotychczasową, ro
 </div>
 </div>
 </div>
+
+<!-- 1902-1911 -->
+<div id="about-section" class="section">
+<div class="about-section">
+<h1></h1>
+<p>Inwestycja Daviesa tchnęła w klub nowe życie. Kluczowym ruchem było zatrudnienie w 1903 roku <a href="https://pl.wikipedia.org/wiki/Ernest_Mangnall" target="_blank>Ernesta Mangnalla</a>, który wprowadził do zespołu profesjonalizm. Pod jego wodzą United w 1906 roku wrócili do elity, a Mangnall sprytnie wykorzystał kryzys w <a href="https://pl.wikipedia.org/wiki/Manchester_City_F.C." target="_blank">Manchesterze City</a>, by przejąć ich największe gwiazdy, z legendarnym <a href="https://pl.wikipedia.org/wiki/Billy_Meredith" target="_blank">Billym Meredithem</a> na czele.
+Efekty przyszły błyskawicznie. W 1908 roku, zaledwie sześć lat po widmie bankructwa, klub zdobył swoje <a href="https://en.wikipedia.org/wiki/1907–08_Football_League" target="_blank>pierwsze mistrzostwo Anglii</a>, a rok później dołożył do tego pierwszy w historii <a href="https://en.wikipedia.org/wiki/1908–09_FA_Cup" target="_blank">Puchar Anglii</a>. United stali się najpotężniejszą siłą w kraju, co Davies postanowił przypieczętować budową nowoczesnego domu.
+W 1910 roku otwarto <a href="https://pl.wikipedia.org/wiki/Old_Trafford" target="_blank">Old Trafford</a> – stadion, który rozmachem przyćmił konkurencję. Nowa arena szybko stała się świadkiem kolejnego triumfu: w 1911 roku klub świętował tam swoje <a href="https://pl.wikipedia.org/wiki/Piłka_nożna_w_Anglii_(1910/1911)" target="_blank>drugie mistrzostwo</a>. W ciągu zaledwie dekady Manchester United przeszedł niewiarygodną drogę – od komornika na stadionie po absolutną dominację w angielskim futbolu.</p>
+<div class="about-img-container">
+<div class="about-img-wrapper portrait">
+<img src="https://i.imgur.com/CltpkTZ.jpeg" alt="Portret">
+</div>
+</div>
+<footer>Skład United po zwycięstwie ligowym. ok. 1911</footer>
+</div>
+</div>
+</div>
 </body>
+
   `;
  
   document.body.appendChild(container);
@@ -511,3 +529,4 @@ tabs.forEach(tab => {
     head.appendChild(linkShortcut);
 })();
 });
+
