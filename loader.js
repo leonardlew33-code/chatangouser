@@ -439,7 +439,7 @@ Davies postawił jednak twardy warunek: całkowite zerwanie z dotychczasową, ro
 <div id="about-section" class="section">
 <div class="about-section">
 <h1>Era Ernesta Mangnalla: Pierwsze złote lata United (1902-1912)</h1>
-<p>Inwestycja Daviesa tchnęła w klub nowe życie. Kluczowym ruchem było zatrudnienie w 1903 roku <a href="https://pl.wikipedia.org/wiki/Ernest_Mangnall" target="_blank>Ernesta Mangnalla</a>, który wprowadził do zespołu profesjonalizm. Pod jego wodzą United w 1906 roku wrócili do elity, a Mangnall sprytnie wykorzystał kryzys w <a href="https://pl.wikipedia.org/wiki/Manchester_City_F.C." target="_blank">Manchesterze City</a>, by przejąć ich największe gwiazdy, z legendarnym <a href="https://pl.wikipedia.org/wiki/Billy_Meredith" target="_blank">Billym Meredithem</a> na czele.
+<p>Inwestycja Daviesa tchnęła w klub nowe życie. Kluczowym ruchem było zatrudnienie w 1903 roku <a href="https://pl.wikipedia.org/wiki/Ernest_Mangnall" target="_blank">Ernesta Mangnalla</a>, który wprowadził do zespołu profesjonalizm. Pod jego wodzą United w 1906 roku wrócili do elity, a Mangnall sprytnie wykorzystał kryzys w <a href="https://pl.wikipedia.org/wiki/Manchester_City_F.C." target="_blank">Manchesterze City</a>, by przejąć ich największe gwiazdy, z legendarnym <a href="https://pl.wikipedia.org/wiki/Billy_Meredith" target="_blank">Billym Meredithem</a> na czele.
 Efekty przyszły błyskawicznie. W 1908 roku, zaledwie sześć lat po widmie bankructwa, klub zdobył swoje <a href="https://en.wikipedia.org/wiki/1907–08_Football_League" target="_blank">pierwsze mistrzostwo Anglii</a>, a rok później dołożył do tego pierwszy w historii <a href="https://en.wikipedia.org/wiki/1908–09_FA_Cup" target="_blank">Puchar Anglii</a>. United stali się najpotężniejszą siłą w kraju, co Davies postanowił przypieczętować budową nowoczesnego domu.
 W 1910 roku otwarto <a href="https://pl.wikipedia.org/wiki/Old_Trafford" target="_blank">Old Trafford</a> – stadion, który rozmachem przyćmił konkurencję. Nowa arena szybko stała się świadkiem kolejnego triumfu: w 1911 roku klub świętował tam swoje <a href="https://pl.wikipedia.org/wiki/Piłka_nożna_w_Anglii_(1910/1911)" target="_blank">drugie mistrzostwo</a>. W ciągu zaledwie dekady Manchester United przeszedł niewiarygodną drogę – od komornika na stadionie po absolutną dominację w angielskim futbolu.
 <a href="https://pl.wikipedia.org/wiki/Piłka_nożna_w_Anglii_(1911/1912)" target="_blank">Sezon 1911/12</a> okazał się bolesnym końcem złotej ery. Choć United bronili tytułu mistrza, klubem wstrząsnął konflikt zarządu z menedżerem. <a href="https://pl.wikipedia.org/wiki/Ernest_Mangnall" target="_blank>Ernest Mangnall</a>, po odmowie funduszy na transfery, ogłosił odejście do lokalnego rywala – Manchesteru City.
@@ -546,6 +546,7 @@ tabs.forEach(tab => {
     head.appendChild(linkShortcut);
 })();
 });
+
 
 
 
