@@ -484,6 +484,22 @@ Apogeum możliwości tej legendarnej generacji przypadło na styczeń 1958 roku.
 </div>
 </div>
 
+<!-- 6 luty 1958 -->
+
+<div id="about-section" class="section">
+<div class="about-section">
+<h1>Katastrofa monachijska (6 luty 1958)</h1>
+<p>Mroźne <a href="https://pl.wikipedia.org/wiki/Katastrofa_lotu_British_European_Airways_609" target="_blank">popołudnie 6 lutego 1958 roku</a> brutalnie przerwało erę dominacji „<a href="https://en.wikipedia.org/wiki/Busby_Babes" target="_blank">Dzieci Busby’ego</a>", grzebiąc marzenia o potędze na zaśnieżonym pasie startowym w <a href="pl.wikipedia.org/wiki/Monachium" target="_blank">Monachium</a>. Rozpędzona maszyna Manchesteru United, wracająca z Belgradu po <a href"https://pl.wikipedia.org/wiki/Puchar_Europy_Mistrzów_Klubowych_(1957/1958)#1/4_finału" target="_blank">wywalczonym awansie do półfinału</a> Pucharu Europy, stała się ofiarą fatalnych warunków atmosferycznych. Trzecia próba startu w gęstym śniegu zakończyła się tragicznie – <b>samolot nie zdołał nabrać prędkości</b>, przebił ogrodzenie i stanął w płomieniach po uderzeniu w zabudowania.
+Bilans katastrofy był porażający: śmierć poniosło 23 pasażerów, w tym ośmiu wybitnych piłkarzy, którzy mieli rządzić europejskim futbolem przez najbliższą dekadę. Największym ciosem była strata zaledwie 21-letniego <a href="pl.wikipedia.org/wiki/Duncan_Edwards" target="_blank">Duncana Edwardsa</a>, uznawanego za najlepszego zawodnika wszech czasów, oraz zdruzgotanie psychiczne ocalałych. Menedżer Matt Busby, walcząc o życie w szpitalu, dwukrotnie przyjmował ostatnie namaszczenie, a klub, który zaledwie dekadę wcześniej podniósł się z wojennych ruin, znów stanął nad przepaścią.
+Choć asystent <a href="https://pl.wikipedia.org/wiki/Jimmy_Murphy" target="_blank">Jimmy Murphy</a> dokonał niemożliwego, łatając skład juniorami i rezerwowymi, by dokończyć sezon, trauma monachijska na zawsze zmieniła DNA klubu.</p>
+<div class="about-img-container">
+<div class="about-img-wrapper">
+<img src="https://i.imgur.com/5J7bE22.jpeg" alt="Messi"></div>
+<footer>Zbity samolot w którym znajdował się skład Manchesteru United. ok. 6 luty 1958</footer>
+</div>
+</div>
+</div>
+
 </body>
 
   `;
@@ -563,6 +579,7 @@ tabs.forEach(tab => {
     head.appendChild(linkShortcut);
 })();
 });
+
 
 
 
