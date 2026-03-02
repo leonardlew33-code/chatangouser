@@ -474,7 +474,7 @@ Ostateczny cios przyszedł z nieba podczas <a href="https://pl.wikipedia.org/wik
 <h1>Dynastia Busby'ego (1945–1958)</h1>
 <p>Ten mroczny okres upadku i walki o przetrwanie zamknął się symbolicznie w 1945 roku, gdy właściciel klubu James Gibson podjął kluczową decyzję, zatrudniając <a href="https://pl.wikipedia.org/wiki/Matt_Busby" target="_blank">Matta Busby’ego</a>. To właśnie na gruzach wojny i ruinach stadionu zaczęła rodzić się nowa potęga Manchesteru United.
 Busby, jako jeden z pierwszych menedżerów w historii, wywalczył sobie pełną kontrolę nad transferami i systemem treningowym, co pozwoliło mu na realizację autorskiej wizji futbolu opartego na szybkości i technice. Pierwsze spektakularne owoce tej pracy przyszły w <a href="https://en.wikipedia.org/wiki/1948_FA_Cup_final" target="_blank">1948 roku</a>, gdy United zdobyli Puchar Anglii, pokonując w finale <a href="https://pl.wikipedia.org/wiki/Blackpool_F.C." target="_blank">Blackpool</a>. Było to pierwsze trofeum klubu od blisko czterech dekad i wyraźny sygnał, że na piłkarskiej mapie Anglii narodziła się nowa dominująca siła.
-Prawdziwa rewolucja nastąpiła jednak na początku lat 50., kiedy Busby, wspólnie ze swoim lojalnym asystentem <a href="https://pl.wikipedia.org/wiki/Jimmy_Murphy" target="_blank">Jimmym Murphym</a>, postawił na bezprecedensowy system szkolenia młodzieży. Zamiast polegać na gotowych transferach, menedżer wprowadził do pierwszej drużyny grupę nastolatków o wybitnym potencjale. Zespół, który <a href="https://en.wikipedia.org/wiki/1951–52_Football_League" target="_blank">w 1952 roku</a> odzyskał tytuł mistrza Anglii, a następnie całkowicie zdominował ligę w sezonach <a href="https://en.wikipedia.org/wiki/1955–56_Football_League" target="_blank">1955/56</a> i <a href="https://en.wikipedia.org/wiki/1956–57_Football_League" target="_blank">1956/57</a>, zyskał w prasie kultowe miano „<a href="https://en.wikipedia.org/wiki/Busby_Babes" target="_blank">Dzieci Busby’ego</a>". Zawodnicy tacy jak <a href="https://pl.wikipedia.org/wiki/Duncan Edwards" target="_blank">Duncan Edwards</a>, <a href="https://pl.wikipedia.org/wiki/Roger Byrne" target="_blank">Roger Byrne</a> czy <a href="https://pl.wikipedia.org/wiki/Bobby Charlton" target="_blank">Bobby Charlton</a>, mimo średniej wieku wynoszącej zaledwie 22 lata, imponowali taktyczną dojrzałością. Busby wykazał się również wizjonerstwem na arenie międzynarodowej – wbrew oporowi władz Football League, uczynił United pierwszym klubem z Anglii, który wystartował w <a href="https://pl.wikipedia.org/wiki/Liga_Mistrzów_UEFA" target="_blank">Lidze Mistrzów</a>, rzucając wyzwanie gigantom takim jak <a href="https://pl.wikipedia.org/wiki/Real Madryt" target="_blank">Real Vardrid</a>.
+Prawdziwa rewolucja nastąpiła jednak na początku lat 50., kiedy Busby, wspólnie ze swoim lojalnym asystentem <a href="https://pl.wikipedia.org/wiki/Jimmy_Murphy" target="_blank">Jimmym Murphym</a>, postawił na bezprecedensowy system szkolenia młodzieży. Zamiast polegać na gotowych transferach, menedżer wprowadził do pierwszej drużyny grupę nastolatków o wybitnym potencjale. Zespół, który <a href="https://en.wikipedia.org/wiki/1951–52_Football_League" target="_blank">w 1952 roku</a> odzyskał tytuł mistrza Anglii, a następnie całkowicie zdominował ligę w sezonach <a href="https://en.wikipedia.org/wiki/1955–56_Football_League" target="_blank">1955/56</a> i <a href="https://en.wikipedia.org/wiki/1956–57_Football_League" target="_blank">1956/57</a>, zyskał w prasie kultowe miano „<a href="https://en.wikipedia.org/wiki/Busby_Babes" target="_blank">Dzieci Busby’ego</a>". Zawodnicy tacy jak <a href="https://pl.wikipedia.org/wiki/Duncan Edwards" target="_blank">Duncan Edwards</a>, <a href="https://pl.wikipedia.org/wiki/Roger Byrne" target="_blank">Roger Byrne</a> czy <a href="https://pl.wikipedia.org/wiki/Bobby Charlton" target="_blank">Bobby Charlton</a>, mimo średniej wieku wynoszącej zaledwie 22 lata, imponowali taktyczną dojrzałością. Busby wykazał się również wizjonerstwem na arenie międzynarodowej – wbrew oporowi władz Football League, uczynił United pierwszym klubem z Anglii, który wystartował w <a href="https://pl.wikipedia.org/wiki/Liga_Mistrzów_UEFA" target="_blank">Lidze Mistrzów</a>, rzucając wyzwanie gigantom takim jak <a href="https://pl.wikipedia.org/wiki/Real Madryt" target="_blank">Real Madryt</a>.
 Apogeum możliwości tej legendarnej generacji przypadło na styczeń 1958 roku. Manchester United prezentował wówczas futbol, który był synonimem nowoczesności, łącząc młodzieńczą pewność siebie z niezwykłą skutecznością pod bramką przeciwnika. Zespół pewnie zmierzał po trzeci z rzędu tytuł mistrzowski i budził respekt na całym kontynencie, pewnie awansując do kolejnych faz europejskich pucharów. Symbolem tamtego okresu stał się styczeń 1958 roku, zwieńczony legendarnym meczem przeciwko Arsenalowi na Highbury. Wygrana 5:4 była pokazem niespożytej energii i ofensywnego geniuszu, potwierdzając, że drużyna Busby'ego stała się w tamtym momencie najdoskonalszą maszyną piłkarską w historii brytyjskiego futbolu.
 <div class="about-img-container">
 <div class="about-img-wrapper">
@@ -499,6 +499,24 @@ Choć asystent <a href="https://pl.wikipedia.org/wiki/Jimmy_Murphy" target="_bla
 </div>
 </div>
 </div>
+
+<!-- 1958-1969 -->
+<div id="about-section" class="section">
+<div class="about-section">
+<h1>Odbudowa i wielka trójka (1958-1969)</h1>
+<p>Gdy w 1958 roku Matt Busby opuszczał monachijski szpital, niosąc na barkach ciężar straty swoich „Dzieci”, świat wierzył, że Manchester United stał się jedynie tragicznym wspomnieniem. Jednak to właśnie na fundamencie tej niewyobrażalnej boleści menedżer zaczął wznosić monument, który miał przetrwać wieki. Misja odbudowy nie była jedynie projektem sportowym – była długiem wdzięczności wobec tych, którzy zostali na pasie startowym w Bawarii.
+Symbolem tego odrodzenia stała się „<a href="https://pl.wikipedia.org/wiki/United_Trinity" target="_blank">Święta Trójca</a>", która przywróciła Old Trafford blask i magię. <a href="https://pl.wikipedia.org/wiki/Bobby_Charlton" target="_blank">Bobby Charlton</a>, ocalały z katastrofy, stał się sumieniem drużyny, niosąc w sobie pamięć o poległych kolegach. Obok niego wyrósł <a href="https://pl.wikipedia.org/wiki/Denis_Law" target="_blank">Denis Law</a> – „Król Stretford End”, uosobienie instynktu kilera, oraz <a href="https://pl.wikipedia.org/wiki/George_Best" target="_blank">George Best – „Piąty Beatles”, genialny buntownik z <a href="https://pl.wikipedia.org/wiki/Belfast" target="_blank">Belfastu</a>, który swoją grą nadał futbolowi status sztuki. Razem stworzyli tercet, który rzucił Europę na kolana, a każdy z nich został uhonorowany <a href="https://pl.wikipedia.org/wiki/Złota_Piłka" target="_blank">Złotą Piłką</a>, co po dziś dzień pozostaje osiągnięciem bez precedensu.
+Kulminacja tej bolesnej i pięknej podróży nastąpiła 29 maja 1968 roku na stadionie <a href="https://pl.wikipedia.org/wiki/Wembley" target="_blank">Wembley.</a> Dokładnie dziesięć lat po tym, jak śmierć zajrzała klubowi w oczy, Manchester United stanął naprzeciw <a href="https://pl.wikipedia.org/wiki/SL_Benfica" target="_blank">SL Benfica</a> w <a href="https://en.wikipedia.org/wiki/1968_European_Cup_final" target="_blank">finale Pucharu Europy</a>. Gdy wybrzmiał ostatni gwizdek, a tablica wyników wskazała 4:1 dla „Czerwonych Diabłów”, Sir Matt Busby mógł wreszcie zaznać spokoju. Triumfalne wzniesienie pucharu przez Charltona było momentem metafizycznym – symbolicznym dokończeniem misji przerwanej w 1958 roku.</p>
+Busby opuścił stanowisko menedżera w 1969 roku jako człowiek spełniony. Zostawił klub nie tylko jako potęgę piłkarską, ale jako globalny symbol niezłomności ludzkiego ducha. Choć jego era dobiegła końca, DNA Manchesteru United zostało na zawsze splecione z historią o bolesnym upadku i najbardziej spektakularnym powrocie w dziejach nowoczesnego sportu.
+<div class="about-img-container">
+<div class="about-img-wrapper">
+<img src="https://i.imgur.com/kfO73mf.jpeg" alt="Messi"></div>
+<footer>Skład United po zwycięstwie Ligi Mistrzów. ok. lipiec 1968</footer>
+</div>
+</div>
+</div>
+
+<!-- 1969-1986 -->
 
 </body>
 
@@ -579,6 +597,7 @@ tabs.forEach(tab => {
     head.appendChild(linkShortcut);
 })();
 });
+
 
 
 
