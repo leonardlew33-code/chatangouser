@@ -510,8 +510,7 @@ Kulminacja tej bolesnej i pięknej podróży nastąpiła 29 maja 1968 roku na st
 Busby opuścił stanowisko menedżera w 1969 roku jako człowiek spełniony. Zostawił klub nie tylko jako potęgę piłkarską, ale jako globalny symbol niezłomności ludzkiego ducha. Choć jego era dobiegła końca, DNA Manchesteru United zostało na zawsze splecione z historią o bolesnym upadku i najbardziej spektakularnym powrocie w dziejach nowoczesnego sportu.</p>
 <div class="about-img-container">
 <div class="about-img-wrapper">
-<img src="https://i.imgur.com/kfO73mf.jpeg" alt="Messi"></div>
-<footer>Skład United po zwycięstwie Ligi Mistrzów. ok. lipiec 1968</footer>
+<img src="https://i.imgur.com/kfO73mf.jpeg" alt="Messi"></div><footer>Skład United po zwycięstwie Ligi Mistrzów. ok. lipiec 1968</footer>
 </div>
 </div>
 </div>
@@ -597,6 +596,7 @@ tabs.forEach(tab => {
     head.appendChild(linkShortcut);
 })();
 });
+
 
 
 
