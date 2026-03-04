@@ -342,7 +342,7 @@ footer {
 <img src="https://upload.wikimedia.org/wikipedia/en/7/7a/Manchester_United_FC_crest.svg">
 </header>
 <h1><b>❤️ 𝔊𝔩𝔬𝔯𝔶 𝔊𝔩𝔬𝔯𝔶 𝔐𝔞𝔫 𝔘𝔫𝔦𝔱𝔢𝔡 ❤️</b></h1>
-<h2><b>🖤 <i>UP THE RED DEVILS</i> 🖤</b></h2>
+<h2><b><i>🖤 UP THE RED DEVILS 🖤</i></b></h2>
 <div style="height: 25px;"></div>
  
 <div class="skład">
@@ -385,8 +385,9 @@ footer {
     <div class="quote-box">🚨🎙️ "When you first walk into that ground... you fall in love with that team running out in that red shirt... it's an addiction you have for life." — Gary Neville</div>
     <div class="quote-box">🚨🎙️ "I never wanted Manchester United to be second to anybody. Only the best would be good enough." — Sir Matt Busby</div>
     <div class="quote-box">🚨🎙️ "Manchester United is not just a club, it's a religion." – Eric Cantona</div>
-    <div class="quote-box">🚨🎙️"Once you put on the red shirt, you feel the history." – Cristiano Ronaldo</div>
-    <div class="quote-box">🚨🎙️"When you play for Manchester United, you play to win everything." – Roy Keane</div>
+    <div class="quote-box">🚨🎙️ "Once you put on the red shirt, you feel the history." – Cristiano Ronaldo</div>
+    <div class="quote-box">🚨🎙️ "When you play for Manchester United, you play to win everything." – Roy Keane</div>
+    <div class="quote-box">🚨🎙️ "You can keep all your Bests, Peles, and Maradonas, Duncan Edwards was the greatest of them all.</div>
 </div>
 </div>
  
@@ -395,7 +396,6 @@ footer {
 <div class="about-section">
 <h1>History of Manchester United</h1>
 <p>Manchester United, założony w 1878 roku, to jeden z najbardziej utytułowanych klubów na świecie. Z legendarnymi menedżerami i gwiazdami, klub zdobywał mistrzostwa Anglii, Puchary i triumfy w Lidze Mistrzów, tworząc historię pełną niezapomnianych zwycięstw i emocji. Klub od zawsze jest symbolem pasji, determinacji i ducha drużynowego, który inspiruje miliony kibiców na całym świecie.</p>
-<div style="height:20px;"></div>
 <div class="about-img-container">
     <div class="about-img-wrapper"><img src="https://m.media-amazon.com/images/I/81JXTGEyp6L.jpg" alt="Messi"></div>
 </div>
@@ -409,9 +409,11 @@ footer {
 <h1>Kolejowe początki (1878–1892)</h1>
 <p>Wszystko zaczęło się w sercu <a href="https://justpaste.it/redirect/e97vh/https%3A%2F%2Fpl.wikipedia.org%2Fwiki%2FRewolucja_przemys%C5%82owa" target="_blank">rewolucji przemysłowej</a>. W 1878 roku pracownicy departamentu wagonów i lokomotyw kolei <a href="https://justpaste.it/redirect/e97vh/https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FLancashire_and_Yorkshire_Railway"target="_blank">Lancashire and Yorkshire Railway</a> założyli zespół <b>Newton Heath LYR FC</b>. Ich pierwsze boisko przy <a href="https://justpaste.it/redirect/e97vh/https%3A%2F%2Fpl.wikipedia.org%2Fwiki%2FNorth%20Road" target="_blank">North Road</a> było dalekie od dzisiejszych standardów – zawodnicy musieli zmagać się z gęstym dymem z pobliskich fabryk i nawierzchnią, która po deszczu przypominała bagnisko.
 W tym czasie klub nie przypominał dzisiejszych "Czerwonych Diabłów". Piłkarze występowali w barwach zielono-złotych, a ich głównym celem była rywalizacja z innymi zakładami pracy. Dopiero w 1885 roku klub przeszedł na zawodowstwo, a w 1892 roku, po odcięciu członu "LYR" i uniezależnieniu się od kolei, zyskał status członka założyciela nowej<a href="https://justpaste.it/redirect/e97vh/https%3A%2F%2Fpl.wikipedia.org%2Fwiki%2FFootball_League_First_Division" target="_blank"> Pierwszej Dywizji</a>.</p>
-<div style="height:-20px;"></div>
 <div class="about-img-container">
-<div class="about-img-wrapper"><img src="https://upload.wikimedia.org/wikipedia/commons/7/75/Newton_Heath_1892-93.jpg" alt="Messi"></div>
+<div class="about-img-wrapper">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/7/75/Newton_Heath_1892-93.jpg" alt="Messi">
+</div>
+</div>
 <footer>Skład klubowy, ok. 1892r</footer>
 </div>
 </div>
@@ -446,7 +448,9 @@ W 1910 roku otwarto <a href="https://pl.wikipedia.org/wiki/Old_Trafford" target=
 Bez swojego lidera i ze starzejącym się składem (m.in. 37-letnim Meredithem), United osunęli się na odległe 13. miejsce w tabeli. Odejście Mangnalla w 1912 roku symbolicznie zamknęło dekadę wielkich sukcesów, wprowadzając klub w wieloletni okres stagnacji i kryzysu, który trwał aż do zakończenia <a href="https://pl.wikipedia.org/wiki/II_wojna_światowa" target="_blank">II wojny światowej</a>.
 </p><div class="about-img-container">
 <div class="about-img-wrapper">
-<img src="https://i.imgur.com/CltpkTZ.jpeg" alt="Messi"></div>
+    <img src="https://i.imgur.com/CltpkTZ.jpeg" alt="Messi">
+</div>
+</div>
 <footer>Skład United po zwycięstwie ligowym. ok. 1911</footer>
 </div>
 </div>
@@ -461,7 +465,9 @@ Bez swojego lidera i ze starzejącym się składem (m.in. 37-letnim Meredithem),
 Ostateczny cios przyszedł z nieba podczas <a href="https://pl.wikipedia.org/wiki/II_wojna_światowa">II wojny światowej</a>. W marcu 1941 roku niemieckie siły lotnicze <a href="https://en.wikipedia.org/wiki/Luftwaffe" target="_blank">Luftwaffe</a>, <a href="https://en.wikipedia.org/wiki/Manchester_Blitz#Further_raids" target="_blank">zbombardowało Old Trafford</a>, zamieniając główną trybunę i biura w ruinę. Klub został „bezdomny” i do końca wojny musiał płacić czynsz Manchesterowi City, by móc grać na ich stadionie <a href="https://en.wikipedia.org/wiki/Maine_Road" target="_blank">Maine Road</a>.</p>
 <div class="about-img-container">
 <div class="about-img-wrapper">
-<img src="https://i.imgur.com/2etePhR.png" alt="Messi"></div>
+    <img src="https://i.imgur.com/2etePhR.png" alt="Messi">
+</div>
+</div>
 <footer>Zbombardowany stadion Old Trafford. ok. 1941</footer>
 </div>
 </div>
@@ -478,7 +484,9 @@ Prawdziwa rewolucja nastąpiła jednak na początku lat 50., kiedy Busby, wspól
 Apogeum możliwości tej legendarnej generacji przypadło na styczeń 1958 roku. Manchester United prezentował wówczas futbol, który był synonimem nowoczesności, łącząc młodzieńczą pewność siebie z niezwykłą skutecznością pod bramką przeciwnika. Zespół pewnie zmierzał po trzeci z rzędu tytuł mistrzowski i budził respekt na całym kontynencie, pewnie awansując do kolejnych faz europejskich pucharów. Symbolem tamtego okresu stał się styczeń 1958 roku, zwieńczony legendarnym meczem przeciwko Arsenalowi na Highbury. Wygrana 5:4 była pokazem niespożytej energii i ofensywnego geniuszu, potwierdzając, że drużyna Busby'ego stała się w tamtym momencie najdoskonalszą maszyną piłkarską w historii brytyjskiego futbolu.
 <div class="about-img-container">
 <div class="about-img-wrapper">
-<img src="https://i.imgur.com/LZbAA7C.jpeg" alt="Messi"></div>
+    <img src="https://i.imgur.com/LZbAA7C.jpeg" alt="Messi">
+</div>
+</div>
 <footer>Skład Manchesteru United. "Dzieci Busby'ego" ok. kwiecień 1957.</footer>
 </div>
 </div>
@@ -494,7 +502,9 @@ Bilans katastrofy był porażający: śmierć poniosło 23 pasażerów, w tym o�
 Choć asystent <a href="https://pl.wikipedia.org/wiki/Jimmy_Murphy" target="_blank">Jimmy Murphy</a> dokonał niemożliwego, łatając skład juniorami i rezerwowymi, by dokończyć sezon, trauma monachijska na zawsze zmieniła DNA klubu.</p>
 <div class="about-img-container">
 <div class="about-img-wrapper">
-<img src="https://i.imgur.com/5J7bE22.jpeg" alt="Messi"></div>
+    <img src="https://i.imgur.com/5J7bE22.jpeg" alt="Messi">
+</div>
+</div>
 <footer>Zbity samolot w którym znajdował się skład Manchesteru United. ok. 6 luty 1958</footer>
 </div>
 </div>
@@ -510,13 +520,31 @@ Kulminacja tej bolesnej i pięknej podróży nastąpiła 29 maja 1968 roku na st
 Busby opuścił stanowisko menedżera w 1969 roku jako człowiek spełniony. Zostawił klub nie tylko jako potęgę piłkarską, ale jako globalny symbol niezłomności ludzkiego ducha. Choć jego era dobiegła końca, DNA Manchesteru United zostało na zawsze splecione z historią o bolesnym upadku i najbardziej spektakularnym powrocie w dziejach nowoczesnego sportu.</p>
 <div class="about-img-container">
 <div class="about-img-wrapper">
-<img src="https://i.imgur.com/kfO73mf.jpeg" alt="Messi"></div><footer>Skład United po zwycięstwie Ligi Mistrzów. ok. lipiec 1968</footer>
+    <img src="https://i.imgur.com/kfO73mf.jpeg" alt="Messi">
+</div>
+</div>
+<footer>Skład United po zwycięstwie Ligi Mistrzów. ok. lipiec 1968</footer>
 </div>
 </div>
 </div>
 
 <!-- 1969-1986 -->
-
+<div id="about-section" class="section">
+<div class="about-section">
+<h1>Ciemny wiek (1969-1986)</h1>
+<p>Gdy w 1969 roku Sir Matt Busby schodził ze sceny, zostawiał Teatr Marzeń w pełnym blasku, nieświadomy, że nad Old Trafford nadciąga siedemnaście lat bolesnego poszukiwania utraconego raju. Era post-Busby’ego nie była zwykłym spadkiem formy – była brutalnym zderzeniem z rzeczywistością, w której duchy przeszłości stały się ciężarem nie do uniesienia dla jego następców.
+Pierwszy na szafot wszedł <a href="https://pl.wikipedia.org/wiki/Wilf_McGuinness" target="_blank">Wilf McGuinness</a>, lojalny uczeń, który próbował zarządzać legendami, będąc wciąż jednym z nich. Przejmując pracę w wieku 31 lat, Szybko jednak utonął w cieniu Busby’ego, który – niby emeryt, a wciąż mentor – doglądał wszystkiego z gabinetu powyżej. Prawdziwy przedsmak nadchodzącego mroku przyniósł jednak <a href="https://en.wikipedia.org/wiki/1971–72_Football_League#First_Division>sezon 1971/72</a> pod wodzą <a href="https://en.wikipedia.org/wiki/Frank_O'Farrell" target="_blank">Franka O’Farrella</a>. To był pierwszy wielki „<b>bottlejob</b>” tej ery – United, prowadzeni przez odrodzonego <a href="https://en.wikipedia.org/wiki/George_Best" target="_blank">George’a Besta</a>, witali Boże Narodzenie na szczycie ligi, by wiosną rozsypać się jak domek z kart. Seria siedmiu porażek z rzędu i <b>upadek na ósme miejsce</b> obnażyły prawdę: magia „<a href="https://pl.wikipedia.org/wiki/United_Trinity>Świętej Trójcy</a>” wygasła, a klub stracił swój kompas.
+Prawdziwy wstrząs przyniósł dopiero <a href="https://en.wikipedia.org/wiki/Tommy Docherty" target="_blank">Tommy Docherty</a>. To on, niczym bezwzględny chirurg, amputował schorowane członki starej gwardii. Pod jego wodzą United zaznali ostatecznego upokorzenia – <a href="https://en.wikipedia.org/wiki/1973–74_Football_League#First_Division" target="_blank">spadku do drugiej ligi w 1974 roku</a>, przypieczętowanego symbolicznym ciosem od samego <a href="pl.wikipedia.org/wiki/Denis_Law" target="_blank">Denisa Lawa</a>. Jednak to w tym czyśćcu narodziła się nowa energia. „The Doc” przywrócił Old Trafford radosny, ofensywny futbol i pucharowy triumf <a href="https://en.wikipedia.org/wiki/1977_FA_Cup_final" target="_blank"Pucharu Anglii w 1977 roku</a>, zanim skandal obyczajowy nie zmiótł go z pokładu, zostawiając stery taktycznemu intelektualiście, <a href="https://en.wikipedia.org/wiki/Dave_Sexton" target="_blank">Dave’owi Sextonowi</a>. Choć Sexton przyniósł solidność, jego chłodny profesjonalizm był dla kibiców wychowanych na magii Besta zbyt jałowy – Manchester pragnął ognia, nie wykresów.
+Ten ogień miał rozpalić <a href="https://en.wikipedia.org/wiki/Ron Atkinson" target="_blank">Ron Atkinson</a>. „Big Ron” wniósł na Old Trafford blichtr, złote łańcuchy i <a href="https://en.wikipedia.org/wiki/Bryan_Robson" target="_blank">Bryana Robsona</a> tzw. „<b>Captain Marvel</b>”, który stał się nowym sercem klubu. Jednak pod tą błyszczącą powłoką kryła się kruchość. <a href="https://en.wikipedia.org/wiki/1985–86_Football_League" target="_blank">Sezon 1985/86</a> stał się symbolem największego rozczarowania: po dziesięciu zwycięstwach z rzędu na starcie, drużyna Atkinsona spektakularnie „pękła”, marnując gigantyczną przewagę i kończąc rok bez korony. To był klasyczny „bottlejob", który udowodnił, że styl bez żelaznej dyscypliny jest jedynie iluzją wielkości.</p>
+<div class="about-img-container">
+<div class="about-img-wrapper">
+    <img src="https://i.imgur.com/fsr9FHd.jpeg" alt="Messi">
+</div>
+</div>
+<footer>Skład United po zwycięstwie Pucharu Anglii. ok. 1977</footer>
+</div>
+</div>
+</div>
 </body>
 
   `;
@@ -596,32 +624,3 @@ tabs.forEach(tab => {
     head.appendChild(linkShortcut);
 })();
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
