@@ -342,7 +342,7 @@ footer {
 <img src="https://upload.wikimedia.org/wikipedia/en/7/7a/Manchester_United_FC_crest.svg">
 </header>
 <h1><b>❤️ 𝔊𝔩𝔬𝔯𝔶 𝔊𝔩𝔬𝔯𝔶 𝔐𝔞𝔫 𝔘𝔫𝔦𝔱𝔢𝔡 ❤️</b></h1>
-<h2><b><i>🖤 UP THE RED DEVILS 🖤</i></b></h2>
+<h2><b>🖤 <i>UP THE RED DEVILS</i> 🖤</b></h2>
 <div style="height: 25px;"></div>
  
 <div class="skład">
@@ -408,8 +408,8 @@ footer {
 <div class="about-section">
 <h1>Kolejowe początki (1878–1892)</h1>
 <p>Wszystko zaczęło się w sercu <a href="https://justpaste.it/redirect/e97vh/https%3A%2F%2Fpl.wikipedia.org%2Fwiki%2FRewolucja_przemys%C5%82owa" target="_blank">rewolucji przemysłowej</a>. W 1878 roku pracownicy departamentu wagonów i lokomotyw kolei <a href="https://justpaste.it/redirect/e97vh/https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FLancashire_and_Yorkshire_Railway"target="_blank">Lancashire and Yorkshire Railway</a> założyli zespół <b>Newton Heath LYR FC</b>. Ich pierwsze boisko przy <a href="https://justpaste.it/redirect/e97vh/https%3A%2F%2Fpl.wikipedia.org%2Fwiki%2FNorth%20Road" target="_blank">North Road</a> było dalekie od dzisiejszych standardów – zawodnicy musieli zmagać się z gęstym dymem z pobliskich fabryk i nawierzchnią, która po deszczu przypominała bagnisko.
-W tym czasie klub nie przypominał dzisiejszych "Czerwonych Diabłów". Piłkarze występowali w barwach zielono-złotych, a ich głównym celem była rywalizacja z innymi zakładami pracy. Dopiero w 1885 roku klub przeszedł na zawodowstwo, a w 1892 roku, po odcięciu członu "LYR" i uniezależnieniu się od kolei, zyskał status członka założyciela nowej<a href="https://justpaste.it/redirect/e97vh/https%3A%2F%2Fpl.wikipedia.org%2Fwiki%2FFootball_League_First_Division" target="_blank"> Pierwszej Dywizji</a>.
-</p><div style="height:20px;"></div>
+W tym czasie klub nie przypominał dzisiejszych "Czerwonych Diabłów". Piłkarze występowali w barwach zielono-złotych, a ich głównym celem była rywalizacja z innymi zakładami pracy. Dopiero w 1885 roku klub przeszedł na zawodowstwo, a w 1892 roku, po odcięciu członu "LYR" i uniezależnieniu się od kolei, zyskał status członka założyciela nowej<a href="https://justpaste.it/redirect/e97vh/https%3A%2F%2Fpl.wikipedia.org%2Fwiki%2FFootball_League_First_Division" target="_blank"> Pierwszej Dywizji</a>.</p>
+<div style="height:-20px;"></div>
 <div class="about-img-container">
 <div class="about-img-wrapper"><img src="https://upload.wikimedia.org/wikipedia/commons/7/75/Newton_Heath_1892-93.jpg" alt="Messi"></div>
 <footer>Skład klubowy, ok. 1892r</footer>
@@ -596,6 +596,7 @@ tabs.forEach(tab => {
     head.appendChild(linkShortcut);
 })();
 });
+
 
 
 
