@@ -387,7 +387,7 @@ footer {
     <div class="quote-box">🚨🎙️ "Manchester United is not just a club, it's a religion." – Eric Cantona</div>
     <div class="quote-box">🚨🎙️ "Once you put on the red shirt, you feel the history." – Cristiano Ronaldo</div>
     <div class="quote-box">🚨🎙️ "When you play for Manchester United, you play to win everything." – Roy Keane</div>
-    <div class="quote-box">🚨🎙️ "You can keep all your Bests, Peles, and Maradonas, Duncan Edwards was the greatest of them all.</div>
+    <div class="quote-box">🚨🎙️ "You can keep all your Bests, Peles, and Maradonas, Duncan Edwards was the greatest of them all." - Tommy Docherty</div>
 </div>
 </div>
  
@@ -624,5 +624,6 @@ tabs.forEach(tab => {
     head.appendChild(linkShortcut);
 })();
 });
+
 
 
