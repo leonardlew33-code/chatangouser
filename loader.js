@@ -346,7 +346,7 @@ footer {
 <div style="height: 25px;"></div>
  
 <div class="skład">
-<img src="https://i.imgur.com/mvh3EAp.png">
+<img src="https://imgur.com/JCDNhHy.png">
 </div>
  
 <footer>Old Trafford • Since 1878</footer>
